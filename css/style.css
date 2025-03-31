@@ -210,3 +210,37 @@ body{
     border-radius: 6px;
     font-weight: 700;
 }
+
+.statistics{
+    background-image: linear-gradient(#19181bc0, #171719e3), url("../assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.statistics__container{
+    display: grid;
+    gap: 2.5rem;
+}
+
+.statistics__item{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.statistics__title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.statistics__cta{
+    background-color: var(--orange);
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 3rem;
+    justify-self: center;
+    border-radius: 6px;
+    font-weight: 700;
+}
