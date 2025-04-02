@@ -351,5 +351,126 @@ body{
         justify-self: start;
         border-radius: 6px;
     }
+
+    /* About */
+    
+    .about__container{        
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .about__figure{
+        width: 30%;
+    }
+
+    .about__img{
+        width: 100%;        
+    }
+
+    .about__texts{
+        width: 70%;
+        text-align: start;
+        place-content: center;
+    }
+
+    .subtitle{
+        text-align: inherit;
+        font-size: 2.5rem;
+    }
+
+    .paragraph{
+        line-height: 1.5;
+        font-weight: 400;
+    }
+
+    /* learn section */
+    .learn{
+        text-align: center;
+    }
+
+    .learn__articles{
+        gap: 2rem;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;    
+    }
+
+    .learn__article{
+        gap: 1.5rem;
+
+    }
+
+    /* sponsor section */
+    .sponsor{
+        text-align: start;
+    }
+
+    .sponsor__main{
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .sponsor__figure{
+        width: 45%;
+    }
+
+    .sponsor__img{
+        max-width: 400px;
+    }
+
+    .sponsor__texts{
+        width: 55%;
+        place-content: center;
+        margin-bottom: 0;
+    }
+
+    .sponsor__cta{
+        justify-self: star;
+    }
+
+    .statistics__title{
+        font-size: 4.5rem;        
+    }
+
+        /* Footer section */
+    .footer{
+        background-color: var(--background);
+    }
+
+    .footer__contact{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        list-style: none;
+        padding: 0;
+        margin-top: 3rem;
+    }
+
+    .footer__link{
+        background-color: var(--color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .footer__item:nth-of-type(1){
+        --color: #1da1f2;
+    }
+
+    .footer__item:nth-of-type(2){
+        --color: #c32aa3;
+    }
+
+    .footer__item:nth-of-type(3){
+        --color: #ff0000;
+    }
+
+    .footter__img{
+        width: 28px;
+    }
+    
 }
 
