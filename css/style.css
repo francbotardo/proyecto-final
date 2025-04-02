@@ -425,7 +425,8 @@ body{
     }
 
     .sponsor__cta{
-        justify-self: star;
+        width: 70%;
+        justify-self: start;
     }
 
     .statistics__title{
@@ -434,42 +435,7 @@ body{
 
         /* Footer section */
     .footer{
-        background-color: var(--background);
-    }
-
-    .footer__contact{
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-        list-style: none;
-        padding: 0;
-        margin-top: 3rem;
-    }
-
-    .footer__link{
-        background-color: var(--color);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-    }
-
-    .footer__item:nth-of-type(1){
-        --color: #1da1f2;
-    }
-
-    .footer__item:nth-of-type(2){
-        --color: #c32aa3;
-    }
-
-    .footer__item:nth-of-type(3){
-        --color: #ff0000;
-    }
-
-    .footter__img{
-        width: 28px;
+        text-align: center;
     }
     
 }
